@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://qwe12322123.github.io/langtaotian-studio/sitemap.xml
