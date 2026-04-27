@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>回国网络 FAQ | iKuai / RouterOS / OpenWrt / 星链回国 | 浪滔天工作室</title>
+    <meta
+      name="description"
+      content="浪滔天工作室回国网络 FAQ，涵盖 iKuai 回国、RouterOS 回国、OpenWrt 回国、星链回国、低延迟、大带宽、线路维护等常见问题。"
+    />
+    <link rel="canonical" href="https://qwe12322123.github.io/langtaotian-studio/faq.html" />
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #07111d;
+        --panel: rgba(12, 24, 40, 0.92);
+        --line: rgba(128, 180, 230, 0.18);
+        --text: #eef6ff;
+        --muted: #a4b9cf;
+        --brand: #2ab6f6;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--text);
+        background:
+          radial-gradient(circle at top, rgba(42, 182, 246, 0.16), transparent 28%),
+          linear-gradient(180deg, #07111d 0%, #040912 100%);
+      }
+
+      .page {
+        width: min(920px, calc(100% - 24px));
+        margin: 0 auto;
+        padding: 28px 0 44px;
+      }
+
+      .hero,
+      .faq-item {
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        background: var(--panel);
+        box-shadow: 0 16px 48px rgba(0, 0, 0, 0.24);
+      }
+
+      .hero {
+        padding: 28px;
+      }
+
+      .hero a {
+        color: var(--muted);
+        text-decoration: none;
+      }
+
+      h1 {
+        margin: 14px 0 10px;
+        font-size: clamp(30px, 5vw, 46px);
+        line-height: 1.12;
+      }
+
+      .lead {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.8;
+        font-size: 17px;
+      }
+
+      .faq-list {
+        display: grid;
+        gap: 14px;
+        margin-top: 20px;
+      }
+
+      .faq-item {
+        padding: 22px;
+      }
+
+      .faq-item h2 {
+        margin: 0 0 10px;
+        font-size: 22px;
+      }
+
+      .faq-item p {
+        margin: 0;
+        line-height: 1.85;
+        color: var(--muted);
+      }
+
+      .cta {
+        margin-top: 20px;
+        padding: 24px;
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        background: rgba(255, 255, 255, 0.03);
+        text-align: center;
+      }
+
+      .cta a {
+        display: inline-block;
+        margin-top: 12px;
+        padding: 12px 20px;
+        border-radius: 999px;
+        background: var(--brand);
+        color: #031019;
+        text-decoration: none;
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero">
+        <a href="./">返回首页</a>
+        <h1>回国网络 FAQ</h1>
+        <p class="lead">
+          这页主要回答回国网络、iKuai 回国、RouterOS 回国、OpenWrt 回国、星链回国、低延迟大带宽优化、线路维护等常见问题。
+        </p>
+      </section>
+
+      <section class="faq-list">
+        <article class="faq-item">
+          <h2>回国网络延迟高怎么办</h2>
+          <p>回国网络延迟高，常见原因包括线路质量、路由策略、DNS、带宽拥塞、设备性能和规则混乱。处理重点不是只换一条线路，而是结合你的设备、接入环境和使用目标做整体排查与优化。</p>
+        </article>
+
+        <article class="faq-item">
+          <h2>iKuai 回国网络适合什么人</h2>
+          <p>iKuai 更适合已经有软路由环境、希望做多线路、分流和基础网络管理的用户。对于回国网络场景，如果你的重点是易管理、规则可视化和长期维护，iKuai 是常见选择之一。</p>
+        </article>
+
+        <article class="faq-item">
+          <h2>RouterOS 回国网络能做什么</h2>
+          <p>RouterOS 适合做软路由、策略路由、分流、NAT、DNS 和基础网络规则整理。如果你需要更灵活的网络控制和更细的策略配置，RouterOS 是很常见的回国网络方案。</p>
+        </article>
+
+        <article class="faq-item">
+          <h2>OpenWrt 和 RouterOS 该怎么选</h2>
+          <p>OpenWrt 和 RouterOS 没有单纯谁更强，关键看你的设备、预算、熟悉程度和后续维护方式。对于回国网络，真正重要的是方案是否适合你的线路和长期使用需求。</p>
+        </article>
+
+        <article class="faq-item">
+          <h2>星链回国可以做吗</h2>
+          <p>可以。星链回国更适合特殊网络环境，但也更依赖具体位置、设备和目标使用场景。星链回国不是单靠“能接通”就结束，还需要配合后续网络整理和回国访问优化。</p>
+        </article>
+
+        <article class="faq-item">
+          <h2>为什么带宽跑不满</h2>
+          <p>带宽跑不满不一定是线路本身差，也可能是策略路由、测速时间段、接入链路、设备性能、运营商路径和规则设置造成的。回国网络的大带宽体验通常要结合线路与软路由一起优化。</p>
+        </article>
+
+        <article class="faq-item">
+          <h2>园区回国网络怎么优化</h2>
+          <p>园区回国网络通常更关注稳定性、长期维护和多设备环境下的整体体验。优化方向会围绕路由结构、策略、出口质量、带宽利用率和后续维护便利性来做。</p>
+        </article>
+      </section>
+
+      <section class="cta">
+        <div>如果你想直接沟通回国网络、iKuai、RouterOS、OpenWrt 或星链回国相关需求，可以联系浪滔天工作室。</div>
+        <a href="https://t.me/Langtaotian_bot" target="_blank" rel="noopener noreferrer">联系 @Langtaotian_bot</a>
+      </section>
+    </main>
+  </body>
+</html>
