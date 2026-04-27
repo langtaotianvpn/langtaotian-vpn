@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://qwe12322123.github.io/langtaotian-vpn/sitemap.xml
-Sitemap: https://qwe12322123.github.io/langtaotian-vpn/main-sitemap.xml
-Sitemap: https://qwe12322123.github.io/langtaotian-vpn/site-urls.txt
+Sitemap: https://langtaotianvpn.github.io/langtaotian-vpn/sitemap.xml
+Sitemap: https://langtaotianvpn.github.io/langtaotian-vpn/main-sitemap.xml
+Sitemap: https://langtaotianvpn.github.io/langtaotian-vpn/site-urls.txt
