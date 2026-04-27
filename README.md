@@ -11,6 +11,11 @@
 
 这个 GitHub 页面主要介绍我们的回国网络服务范围、适合人群、核心优势、支持设备和常见问题，方便用户快速了解是否适合自己的使用场景。
 
+补充页面：
+
+- [回国VPN关键词说明页](https://langtaotianvpn.github.io/langtaotian-vpn/huiguo-vpn.html)
+- [中文 FAQ 页面](https://langtaotianvpn.github.io/langtaotian-vpn/faq.html)
+
 ## 我们服务谁
 
 - 需要访问国内网站、国内 App、国内视频和国内办公系统的用户
@@ -137,6 +142,24 @@
 
 软路由调试通常会涉及分流、策略路由、DNS、NAT、端口转发、带宽利用率、延迟波动和规则冲突等问题。目标是把当前环境调到更稳定、更好维护的状态。
 
+## 关键词说明
+
+### 回国VPN / 回国专线
+
+回国VPN 和回国专线的重点不是只看能否接通，更重要的是延迟、带宽、晚高峰稳定性和后续维护是否跟得上。
+
+### 单机单IP
+
+单机单IP 更适合重视固定环境、线路独立性和长期稳定性的用户，适不适合要结合设备、预算和实际用途判断。
+
+### 小火箭节点 / v2节点
+
+小火箭节点和 v2节点适合部分轻量设备和移动端接入场景，但真正影响体验的仍然是线路质量、带宽表现和延迟控制。
+
+### 软路由调试
+
+软路由调试通常会围绕 RouterOS、OpenWrt、iKuai、Linux 软路由的分流、策略路由、DNS、NAT、转发和规则冲突来做整理与优化。
+
 ## 我们能提供什么
 
 - 从零搭建一套可用的回国网络环境
@@ -155,6 +178,7 @@
 
 - Telegram: [@Langtaotian_bot](https://t.me/Langtaotian_bot)
 - 联系按钮页: [Langtaotian_bot_button.html](Langtaotian_bot_button.html)
+- 关键词说明页: [huiguo-vpn.html](huiguo-vpn.html)
 
 ## 关键词
 
