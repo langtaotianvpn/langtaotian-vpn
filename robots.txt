@@ -3,3 +3,4 @@ Allow: /
 
 Sitemap: https://qwe12322123.github.io/langtaotian-studio/sitemap.xml
 Sitemap: https://qwe12322123.github.io/langtaotian-studio/main-sitemap.xml
+Sitemap: https://qwe12322123.github.io/langtaotian-studio/site-urls.txt
